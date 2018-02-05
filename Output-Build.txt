@@ -1,0 +1,19 @@
+﻿1>------ Build started: Project: Win64-console, Configuration: Debug x64 ------
+1>  RecordingLight.cpp
+1>c:\dev\test\win64-console\RecordingLight.h(12): error C2061: syntax error: identifier 'vector'
+1>c:\dev\test\win64-console\RecordingLight.h(26): error C2143: syntax error: missing ';' before '<'
+1>c:\dev\test\win64-console\RecordingLight.h(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\dev\test\win64-console\RecordingLight.h(26): error C2238: unexpected token(s) preceding ';'
+1>RecordingLight.cpp(39): error C2065: 'vector': undeclared identifier
+1>RecordingLight.cpp(39): error C2275: 'CString': illegal use of this type as an expression
+1>  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afxstr.h(99): note: see declaration of 'CString'
+1>RecordingLight.cpp(39): error C2065: 'LightNameArray': undeclared identifier
+1>RecordingLight.cpp(39): error C2761: 'void CRecordingLight::GetLightName(void)': member function redeclaration not allowed
+1>RecordingLight.cpp(40): error C2448: 'CRecordingLight::GetLightName': function-style initializer appears to be a function definition
+1>RecordingLight.cpp(70): error C2065: 'm_LightNameArray': undeclared identifier
+1>RecordingLight.cpp(70): error C2228: left of '.clear' must have class/struct/union
+1>  RecordingLight.cpp(70): note: type is 'unknown-type'
+1>RecordingLight.cpp(74): error C2065: 'm_LightNameArray': undeclared identifier
+1>RecordingLight.cpp(74): error C2228: left of '.push_back' must have class/struct/union
+1>  RecordingLight.cpp(74): note: type is 'unknown-type'
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

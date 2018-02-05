@@ -1,0 +1,19 @@
+﻿  Win64-console.cpp
+c:\dev\test\win64-console\viqlog.hpp(218): warning C4244: '=': conversion from 'std::streamoff' to 'DWORD', possible loss of data
+c:\dev\test\win64-console\zw_algorithm.hpp(56): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\dev\test\win64-console\zw_algorithm.hpp(454): warning C4101: 'pre': unreferenced local variable
+c:\dev\test\win64-console\zw_algorithm.hpp(545): warning C4101: 'highestBit': unreferenced local variable
+c:\dev\test\win64-console\win64-console.cpp(81): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\dev\test\win64-console\win64-console.cpp(153): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+c:\dev\test\win64-console\win64-console.cpp(201): warning C4101: 'size2': unreferenced local variable
+c:\dev\test\win64-console\win64-console.cpp(236): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\dev\test\win64-console\win64-console.cpp(254): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\dev\test\win64-console\zw_algorithm.hpp(210): warning C4715: 'BinarySearch': not all control paths return a value
+c:\dev\test\win64-console\ms_test.hpp(68): warning C4715: 'CMSTest::CheckXInSortedArray': not all control paths return a value
+Markup.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Win64-console.vcxproj -> C:\dev\Test\Win64-console\Debug\Win64-console.exe
+  Win64-console.vcxproj -> C:\dev\Test\Win64-console\Debug\Win64-console.pdb (Full PDB)
